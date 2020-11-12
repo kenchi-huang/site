@@ -3,7 +3,8 @@
   display: flex;
   flex: 1;
   justify-content: space-between;
-  padding: 1% 3% 0% 3%
+  padding: 1% 3% 0% 3%;
+  max-height: 0%;
 }
 
 .naviButton {
@@ -43,6 +44,7 @@
           font-size: 10ch;
           font-family: 'Assistant';
           max-height: 1ch;
+          padding-top: 8vh;
 }
 
 .belowName {
@@ -63,7 +65,7 @@
   align-items: center;
   justify-content: flex-end;
   max-height: 2ch;
-  /* padding: 0 1% 0 0; */
+  padding-top: 4vh;
 }
 
 .emailIcon{
@@ -157,5 +159,14 @@
           flex: 1;
           align-items: center;
           justify-content: flex-end;
-          margin-right: 0.4vh;
+          margin-right: 0.8vh;
+}
+
+.homePage{
+  background-image: url("./image.png");
+  background-size: 100%;
+  background-position: center;
+  background-position-y: center;
+  min-height: 70vh;
+  background-color: black;
 }

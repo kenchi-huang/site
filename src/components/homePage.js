@@ -4,7 +4,7 @@ import '../App.css';
 export default class homePage extends React.Component {
     render() {
         return (
-            <div>
+            <div className = "homePage">
                 <p className="name">
                     Ken-Chi Huang
                 </p>

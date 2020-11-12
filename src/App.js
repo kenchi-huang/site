@@ -45,11 +45,11 @@ export default class App extends React.Component {
                         <button className={this.naviButton('experience')} onClick={() => this.setState({ display: 'experience' })}>
                             Experiences
                         </button>
-                        {/* <a href={Pdf} without rel="noopener noreferrer" target="_blank"> */}
-                        <button className={this.naviButton('resume')} onClick={() => this.setState({ display: 'resume' })}>
-                            Resume
-                        </button>
-                        {/* </a> */}
+                        <a href={Pdf} without rel="noopener noreferrer" target="_blank">
+                            <button className={this.naviButton('resume')} onClick={() => this.setState({ display: 'home' })}>
+                                Resume
+                            </button>
+                        </a>
                     </div>
                     <div className="homeButton">
                         <button className={this.naviButton('home')} onClick={() => this.setState({ display: 'home' })}>
@@ -62,7 +62,7 @@ export default class App extends React.Component {
                     {this.state.display === 'about' && <About />}
                     {this.state.display === 'projects' && <Projects />}
                     {this.state.display === 'experience' && <Experience />}
-                    {this.state.display === 'resume' && <Resume />}
+                    {/* {this.state.display === 'resume' && <Resume />} */}
                     {this.state.display === 'contact' && <Contact />}
                 </div>
                 <div className="contactBar">
