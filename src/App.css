@@ -1,38 +1,161 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.navBar{
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 1% 3% 0% 3%
 }
 
-.App-link {
-  color: #61dafb;
+.naviButton {
+  border-width: 0;
+  background-color: transparent;
+  color: #FFF;
+  font-family: 'Assistant';
+  font-weight: normal;
+  font-size: 2ch;
+  outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.naviButtonSelected{
+  border-width: 0;
+  background-color: transparent;
+  color: #dcf3ff;
+  font-size: 2ch;
+  font-family: 'Assistant';
+  outline: none;
+}
+
+.naviButton:hover{
+  border-width: 0;
+  background-color: transparent;
+  color: #dcf3ff;
+  font-family: 'Assistant';
+  font-size: 2ch;
+  outline: none;
+}
+
+.name {
+	-webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+          animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+          color:#dcf3ff;
+          text-align: center;
+          font-weight: lighter;
+          font-size: 10ch;
+          font-family: 'Assistant';
+          max-height: 1ch;
+}
+
+.belowName {
+	-webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.5s both;
+          animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.5s both;
+          color:#dcf3ff;
+          text-align: center;
+          font-size: 3ch;
+}
+
+.pageStates{
+  min-height: 70vh;
+}
+
+.contactBar{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+  max-height: 2ch;
+  /* padding: 0 1% 0 0; */
+}
+
+.emailIcon{
+  width: 7ch;
+  margin-right: 0.05vh;
+}
+
+.githubIcon{
+  width: 7ch;
+  margin-right: 1%;
+}
+
+.instaIcon{
+  width: 7ch;
+  margin-right: 1%;
+}
+
+.linkedInIcon{
+  width: 7ch;
+  margin-right: 1%;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
   }
-  to {
-    transform: rotate(360deg);
+  40% {
+    opacity: 0.6;
   }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.slide-in-bck-center {
+	-webkit-animation: slide-in-bck-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: slide-in-bck-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          background-color: transparent;
+          outline: none;
+          border-width: 0;
+}
+
+.copyButton {
+	-webkit-animation: slide-in-bck-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: slide-in-bck-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          background-color: transparent;
+          outline: none;
+          border-width: 0;
+}
+
+@-webkit-keyframes slide-in-bck-center {
+  0% {
+    -webkit-transform: translateZ(600px);
+            transform: translateZ(600px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-bck-center {
+  0% {
+    -webkit-transform: translateZ(600px);
+            transform: translateZ(600px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+.copySuccessMessage{
+          display: flex;
+          flex: 1;
+          align-items: center;
+          justify-content: flex-end;
+          margin-right: 0.4vh;
 }
