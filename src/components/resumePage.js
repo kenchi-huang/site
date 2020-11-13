@@ -12,7 +12,7 @@ export default class resumePage extends React.Component{
                 </div>
                 <div className = "bodyText">
                     <p>
-                        
+                        yeet
                     </p>
                 </div>
             </div>

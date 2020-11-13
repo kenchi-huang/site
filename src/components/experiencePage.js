@@ -1,12 +1,22 @@
 import React from 'react';
 import '../App.css';
+import TimelineBox from './timelineBox';
+import data from '../data/timelineInfo'
 
-export default class resumePage extends React.Component{
+export default class experiencePage extends React.Component{
     render(){
         return(
-            <p>
-                experience
-            </p>
+            <div className = "timelinePage">
+                <p className = "timelineTitle">Achievements and Experiences</p>
+                <div className = "gradientLine"/>
+                <div className = "infoBox">
+                    {data.map(item => {
+                        return(
+                            <TimelineBox year={item.year} title={item.title} text={item.text}/>
+                        )
+                    })}
+                </div>
+            </div>
         )
     }
 }
