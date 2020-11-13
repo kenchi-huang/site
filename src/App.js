@@ -70,19 +70,19 @@ export default class App extends React.Component {
                 <div className="contactBar">
                     {/* <ContactButtons src = "Github" text="Open Github" storage = "Open Github"/> */}
                     <button className="slide-in-bck-center" onClick={(e) => { e.preventDefault(); window.open('https://github.com/kenchi-huang', '_blank') }}>
-                        <img className="githubIcon" src={Github} />
+                        <img className="contactIcon" src={Github} />
                         <span class = "popupText">Open Github</span>
                     </button>
                     <button className="slide-in-bck-center" onClick={(e) => { e.preventDefault(); window.open('https://www.instagram.com/ken.h01/', '_blank') }}>
-                        <img className="instaIcon" src={Insta} />
+                        <img className="contactIcon" src={Insta} />
                         <span class = "popupText">Open Instagram</span>
                     </button>
                     <button className="slide-in-bck-center" onClick={(e) => { e.preventDefault(); window.open('https://www.linkedin.com/in/ken-chi-huang-5028561ba', '_blank') }}>
-                        <img className="linkedInIcon" src={LinkedIn} />
+                        <img className="contactIcon" src={LinkedIn} />
                         <span class = "popupText">Open LinkedIn</span>
                     </button>
                     <button className="slide-in-bck-center" onClick={(e) => { navigator.clipboard.writeText("kenchi.huang@gmail.com"); this.setState({ copyText: "Copied!", style: {color: 'green'}}); setTimeout(() => this.setState({copyText: 'Copy Email', style: {} }), 2000); }}>
-                        <img className="emailIcon" src={Email} />
+                        <img className="contactIcon" src={Email} />
                         <span class = "popupText">{this.state.copyText}</span>
                     </button>
                 </div>

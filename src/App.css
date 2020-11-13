@@ -13,7 +13,7 @@
   color: #FFF;
   font-family: 'Assistant';
   font-weight: normal;
-  font-size: 2ch;
+  font-size: 2.5ch;
   outline: none;
 }
 
@@ -21,7 +21,7 @@
   border-width: 0;
   background-color: transparent;
   color: #dcf3ff;
-  font-size: 2ch;
+  font-size: 2.5ch;
   font-family: 'Assistant';
   outline: none;
 }
@@ -31,7 +31,7 @@
   background-color: transparent;
   color: #dcf3ff;
   font-family: 'Assistant';
-  font-size: 2ch;
+  font-size: 2.5ch;
   outline: none;
 }
 
@@ -44,7 +44,7 @@
           animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
           color:#dcf3ff;
           text-align: center;
-          font-weight: lighter;
+          font-weight: light;
           font-size: 10ch;
           font-family: 'Assistant';
           max-height: 1ch;
@@ -57,6 +57,7 @@
           color:#dcf3ff;
           text-align: center;
           font-size: 3ch;
+          font-weight: light;
 }
 
 /* text animation */
@@ -84,19 +85,7 @@
   padding-left: 2vw;
 }
 
-.emailIcon{
-  width: 7ch;
-}
-
-.githubIcon{
-  width: 7ch;
-}
-
-.instaIcon{
-  width: 7ch;
-}
-
-.linkedInIcon{
+.contactIcon{
   width: 7ch;
 }
 
@@ -203,7 +192,7 @@
 .timelineTitle{
   color:#dcf3ff;
   text-align: left;
-  font-weight: lighter;
+  font-weight: light;
   font-size: 8ch;
   font-family: 'Assistant';
   max-height: 1ch;
@@ -270,7 +259,7 @@
 
 .timelineYear{
   color:#dcf3ff;
-  font-weight: lighter;
+  font-weight: bold;
   font-size: 3ch;
   font-family: 'Assistant';
   max-height: 1vh;
@@ -278,17 +267,22 @@
 
 .timelineInfoTitle{
   color:#dcf3ff;
-  font-weight: lighter;
+  font-weight: bold;
   font-size: 3ch;
   font-family: 'Assistant';
   max-height: 1vh;
   padding-bottom: 4.5vh;
 }
 
+.timelineText{
+  font-weight: normal;
+  font-size: 2.7ch;
+}
+
 .projectPageTitle{
   color:#dcf3ff;
   text-align: left;
-  font-weight: lighter;
+  font-weight: normal;
   font-size: 8ch;
   font-family: 'Assistant';
   max-height: 1ch;
@@ -323,20 +317,19 @@
 }
 
 .projectButton:hover .projectPopup{
-  -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-  animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+  -webkit-animation: slide-in-blurred-top 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+  animation: slide-in-blurred-top 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
   visibility: visible;
 }
 
 .projectBox{
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
+  align-items: flex-start;
+  /* justify-content: space-between; */
 }
 
 .projectYear{
   color:#dcf3ff;
-  font-weight: lighter;
+  font-weight: light;
   font-size: 3ch;
   font-family: 'Assistant';
   max-height: 0vh;
@@ -351,19 +344,28 @@
   padding-top: no;
 }
 
-@-webkit-keyframes slide-in-blurred-left {
+.projectDescription{
+  color:#dcf3ff;
+  font-weight: normal;
+  font-size: 3ch;
+  font-family: 'Assistant';
+  max-height: 1vh;
+  padding-top: no;
+}
+
+@-webkit-keyframes slide-in-blurred-top {
   0% {
-    -webkit-transform: translateX(-100px) scaleX(2.5) scaleY(0.2);
-            transform: translateX(-100px) scaleX(2.5) scaleY(0.2);
-    -webkit-transform-origin: 100% 50%;
-            transform-origin: 100% 50%;
+    -webkit-transform: translateY(-100px) scaleY(2.5) scaleX(0.2);
+            transform: translateY(-100px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
     -webkit-filter: blur(40px);
             filter: blur(40px);
     opacity: 0;
   }
   100% {
-    -webkit-transform: translateX(0) scaleY(1) scaleX(1);
-            transform: translateX(0) scaleY(1) scaleX(1);
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+            transform: translateY(0) scaleY(1) scaleX(1);
     -webkit-transform-origin: 50% 50%;
             transform-origin: 50% 50%;
     -webkit-filter: blur(0);
@@ -371,19 +373,19 @@
     opacity: 1;
   }
 }
-@keyframes slide-in-blurred-left {
+@keyframes slide-in-blurred-top {
   0% {
-    -webkit-transform: translateX(-100px) scaleX(2.5) scaleY(0.2);
-            transform: translateX(-100px) scaleX(2.5) scaleY(0.2);
-    -webkit-transform-origin: 100% 50%;
-            transform-origin: 100% 50%;
+    -webkit-transform: translateY(-100px) scaleY(2.5) scaleX(0.2);
+            transform: translateY(-100px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
     -webkit-filter: blur(40px);
             filter: blur(40px);
     opacity: 0;
   }
   100% {
-    -webkit-transform: translateX(0) scaleY(1) scaleX(1);
-            transform: translateX(0) scaleY(1) scaleX(1);
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+            transform: translateY(0) scaleY(1) scaleX(1);
     -webkit-transform-origin: 50% 50%;
             transform-origin: 50% 50%;
     -webkit-filter: blur(0);
@@ -418,7 +420,7 @@
 .aboutMeTitle{
   color:#dcf3ff;
   text-align: left;
-  font-weight: lighter;
+  font-weight: light;
   font-size: 8ch;
   font-family: 'Assistant';
   max-height: 1ch;
