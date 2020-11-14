@@ -3,7 +3,7 @@ const data = [
     {
         "year": "2016",
         "title": "British Heart Foundation",
-        "text": "Started volunteering in a small team for a charitable cause. ",
+        "text": "Started volunteering in a small team for the British Heart Foundation.",
         "count": "1"
     },
     {

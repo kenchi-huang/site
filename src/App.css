@@ -178,7 +178,7 @@
 .homePage{
   background-image: url("./images/image.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   background-position-y: center;
   min-height: 75vh;
@@ -447,4 +447,350 @@
 
 .skillLogo{
   max-width: 7vh;
+}
+
+
+
+
+/* MOBILE CSS */
+
+.navBar-m{
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 10% 3% 0% 3%;
+  height: 0vh
+}
+
+.naviButtonM{
+  border-width: 0;
+  background-color: transparent;
+  color: #FFF;
+  font-family: 'Assistant';
+  font-weight: normal;
+  font-size: 1.9ch;
+  outline: none;
+}
+
+.naviButtonSelected-m{
+  border-width: 0;
+  background-color: transparent;
+  color: #dcf3ff;
+  font-size: 1.9ch;
+  font-family: 'Assistant';
+  outline: none;
+}
+
+.naviButton-m:hover{
+  border-width: 0;
+  background-color: transparent;
+  color: #dcf3ff;
+  font-family: 'Assistant';
+  font-size: 1.9ch;
+  outline: none;
+}
+
+.icon-m{
+  max-height: 8vh;
+}
+
+.homeButton-m{
+  max-height: 8vh;
+}
+
+.name-m{
+	-webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+          animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+          color:#dcf3ff;
+          text-align: center;
+          font-weight: light;
+          font-size: 5ch;
+          font-family: 'Assistant';
+          max-height: 1ch;
+          padding-top: 8vh;
+}
+
+.belowName-m{
+	-webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.5s both;
+          animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.5s both;
+          color:#dcf3ff;
+          text-align: center;
+          font-size: 1.9ch;
+          font-weight: light;
+}
+
+.contactBar-m{
+  display: flex;
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: -6vh;
+  max-height: 2vh;
+}
+
+.contactIcon-m{
+  width: 4ch;
+}
+
+.slide-in-bck-center-m{
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column-reverse;
+  width: 2vw;
+	-webkit-animation: slide-in-bck-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: slide-in-bck-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          background-color: transparent;
+          outline: none;
+          border-width: 0;
+}
+
+.slide-in-bck-center-m .popupText-m{
+  font-family: "Assistant";
+  font-weight: bold;
+  visibility: hidden;
+  width: 120px;
+  background-color: transparent;
+  color: #dcf3ff;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.slide-in-bck-center-m:hover .popupText-m{
+  visibility: visible;
+}
+
+.copyButton-m{
+	-webkit-animation: slide-in-bck-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: slide-in-bck-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          background-color: transparent;
+          outline: none;
+          border-width: 0;
+}
+
+.homePage-m{
+  background-image: url("./images/image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position-y: center;
+  min-height: 75vh;
+  background-color: black;
+}
+
+.pageStates-m{
+  min-height: 75vh;
+}
+
+.timelinePage-m{
+  min-height: 76.1vh;
+  max-height: 76.1vh;
+}
+
+.timelineTitle-m{
+  color:#dcf3ff;
+  text-align: left;
+  font-weight: light;
+  font-size: 4ch;
+  font-family: 'Assistant';
+  max-height: 1ch;
+  padding: 1% 0% 1.5% 0.9%
+}
+
+.gradientLine-m{
+  animation: cha-cha-real-smooth-m 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  max-width: 2vh;
+  background: rgb(0,0,0);
+  background: linear-gradient(rgba(0,0,0,1) 0%, rgba(220,243,255,1) 45%);
+  padding: 0% 1% 1% 0%;
+  float: left;
+}
+
+@keyframes cha-cha-real-smooth-m{
+  0% {
+    height: 0vh;
+  }
+  100% {
+    height: 65vh;
+  }
+}
+
+.infoBox-m{
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-left: 1.5vh;
+  padding-bottom: 1vh;
+}
+
+.timelineObject-m{
+  -webkit-animation: slide-in-fwd-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
+	        animation: slide-in-fwd-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
+  position: relative;;
+}
+
+.timelineYear-m{
+  color:#dcf3ff;
+  font-weight: bold;
+  font-size: 2ch;
+  font-family: 'Assistant';
+  max-height: 0.5vh;
+  padding: none;
+}
+
+.timelineInfoTitle-m{
+  color:#dcf3ff;
+  font-weight: bold;
+  font-size: 2ch;
+  font-family: 'Assistant';
+  max-height: 0.5vh;
+  padding: none;
+}
+
+.timelineText-m{
+  font-weight: normal;
+  font-size: 2ch;
+  max-height:1vh;
+  padding-bottom: 1vh;
+}
+
+.projectScreen-m{
+  min-height: 76.1vh;
+}
+
+.projectPageTitle-m{
+  color:#dcf3ff;
+  text-align: left;
+  font-weight: normal;
+  font-size: 4ch;
+  font-family: 'Assistant';
+  max-height: 1ch;
+  padding: 1% 0% 0% 1%
+}
+
+.projectIcon-m{
+  max-height: 15vh;
+}
+
+.projectButton-m{
+  align-items: center;
+  display: flex;
+  flex: 1;
+  border-width: 0;
+  background-color: transparent;
+  color: #FFF;
+  outline: none;
+  padding-bottom: 2vh;
+  flex-direction: column;
+}
+
+.projectButton-m .projectPopup-m{
+  padding-bottom: 5vh;
+  font-family: "Assistant";
+  font-weight: bold;
+  visibility: hidden;
+  width: 180px;
+  background-color: transparent;
+  color: #dcf3ff;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.projectButton-m:focus .projectPopup-m{
+  -webkit-animation: slide-in-blurred-top 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+  animation: slide-in-blurred-top 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+  visibility: visible;
+}
+
+.projectBox-m{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: column;
+}
+
+.projectYear-m{
+  color:#dcf3ff;
+  font-weight: light;
+  font-size: 2ch;
+  font-family: 'Assistant';
+  max-height: 0vh;
+}
+
+.projectTitle-m{
+  color:#dcf3ff;
+  font-weight: bold;
+  font-size: 2.5ch;
+  font-family: 'Assistant';
+  max-height: 0vh;
+}
+
+.projectDescription-m{
+  color:#dcf3ff;
+  font-weight: normal;
+  font-size: 1.7ch;
+  font-family: 'Assistant';
+  max-height: 1vh;
+  padding-top: no;
+}
+
+.projectsBox-m{
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  flex-direction: initial;
+}
+
+.projectSection-m{
+  align-items: center;
+  display: flex;
+  flex: 1;
+  
+}
+
+.aboutMeScreen-m{
+  min-height: 76.1vh;
+}
+
+.aboutMeBox-m{
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  min-height: 68.9vh;
+}
+
+.aboutMeTitle-m{
+  color:#dcf3ff;
+  text-align: left;
+  font-weight: light;
+  font-size: 4ch;
+  font-family: 'Assistant';
+  max-height: 1ch;
+  padding: 1% 0% 0% 1%
+}
+
+.Ken-m{
+  max-width: 20vh; 
+  padding-left: 1vh;
+}
+
+.aboutMeText-m{
+  padding-left: 1vh;
+  padding-right: 1vh;
+  font-size: 1.6ch;
+}
+
+.skillButton-m{
+  border-width: 0;
+  background-color: transparent;
+  color: #FFF;
+  outline: none;
+  padding-bottom: 2vh;
+}
+
+.skillLogo-m{
+  max-width: 5vh;
 }

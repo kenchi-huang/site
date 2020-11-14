@@ -4,8 +4,8 @@ import Home from './components/homePage';
 import About from './components/aboutPage';
 import Projects from './components/projectPage';
 import Experience from './components/experiencePage';
-import Resume from './components/resumePage';
-import ContactButtons from './components/contactButton';
+import Resume from './redundant/resumePage';
+import ContactButtons from './redundant/contactButton';
 
 import logo from './images/logo.png';
 import Email from './images/em.png';
@@ -45,6 +45,12 @@ export default class App extends React.Component {
         if (this.state.display === name)
             return 'naviButtonSelected';
         return 'naviButton';
+    }
+
+    naviButtonM = name => {
+        if (this.state.display === name)
+            return 'naviButtonSelected-m';
+        return 'naviButtonM';
     }
 
     render() {
@@ -111,17 +117,17 @@ export default class App extends React.Component {
                     <div>
                         <div className="navBar-m">
                             <div className="navButtons-m">
-                                <button className={this.naviButton('about')} onClick={() => this.setState({ display: 'about' })}>
+                                <button className={this.naviButtonM('about')} onClick={() => this.setState({ display: 'about' })}>
                                     About Me
                                 </button>
-                                <button className={this.naviButton('projects')} onClick={() => this.setState({ display: 'projects' })}>
+                                <button className={this.naviButtonM('projects')} onClick={() => this.setState({ display: 'projects' })}>
                                     Projects
                                 </button>
-                                <button className={this.naviButton('experience')} onClick={() => this.setState({ display: 'experience' })}>
+                                <button className={this.naviButtonM('experience')} onClick={() => this.setState({ display: 'experience' })}>
                                     Achievements
                                 </button>
                                 <a href={Pdf} without rel="noopener noreferrer" target="_blank">
-                                    <button className={this.naviButton('resume')}> 
+                                    <button className={this.naviButtonM('resume')}> 
                                     {/*onClick={() => this.setState({ display: 'home' })}> */}
                                         Resume
                                     </button>
@@ -141,25 +147,27 @@ export default class App extends React.Component {
                             {/* {this.state.display === 'resume' && <Resume />} */}
                             {/* {this.state.display === 'contact' && <Contact />} */}
                         </div>
-
-                        <div className="contactBar-m">
-                            {/* <ContactButtons src = "Github" text="Open Github" storage = "Open Github"/> */}
-                            <button className="slide-in-bck-center-m" onClick={(e) => { e.preventDefault(); window.open('https://github.com/kenchi-huang', '_blank') }}>
-                                <img className="contactIcon-m" src={Github} />
-                                <span class = "popupText-m">Open Github</span>
-                            </button>
-                            <button className="slide-in-bck-center-m" onClick={(e) => { e.preventDefault(); window.open('https://www.instagram.com/ken.h01/', '_blank') }}>
-                                <img className="contactIcon-m" src={Insta} />
-                                <span class = "popupText-m">Open Instagram</span>
-                            </button>
-                            <button className="slide-in-bck-center-m" onClick={(e) => { e.preventDefault(); window.open('https://www.linkedin.com/in/ken-chi-huang-5028561ba', '_blank') }}>
-                                <img className="contactIcon-m" src={LinkedIn} />
-                                <span class = "popupText-m">Open LinkedIn</span>
-                            </button>
-                            <button className="slide-in-bck-center-m" onClick={(e) => { navigator.clipboard.writeText("kenchi.huang@gmail.com"); this.setState({ copyText: "Copied!", style: {color: 'green'}}); setTimeout(() => this.setState({copyText: 'Copy Email', style: {} }), 2000); }}>
-                                <img className="contactIcon-m" src={Email} />
-                                <span class = "popupText-m">{this.state.copyText}</span>
-                            </button>
+                        
+                        <div className = "mobileContactBar">
+                            <div className="contactBar-m">
+                                {/* <ContactButtons src = "Github" text="Open Github" storage = "Open Github"/> */}
+                                <button className="slide-in-bck-center-m" onClick={(e) => { e.preventDefault(); window.open('https://github.com/kenchi-huang', '_blank') }}>
+                                    <img className="contactIcon-m" src={Github} />
+                                    <span class = "popupText-m">Open Github</span>
+                                </button>
+                                <button className="slide-in-bck-center-m" onClick={(e) => { e.preventDefault(); window.open('https://www.instagram.com/ken.h01/', '_blank') }}>
+                                    <img className="contactIcon-m" src={Insta} />
+                                    <span class = "popupText-m">Open Instagram</span>
+                                </button>
+                                <button className="slide-in-bck-center-m" onClick={(e) => { e.preventDefault(); window.open('https://www.linkedin.com/in/ken-chi-huang-5028561ba', '_blank') }}>
+                                    <img className="contactIcon-m" src={LinkedIn} />
+                                    <span class = "popupText-m">Open LinkedIn</span>
+                                </button>
+                                <button className="slide-in-bck-center-m" onClick={(e) => { navigator.clipboard.writeText("kenchi.huang@gmail.com"); this.setState({ copyText: "Copied!", style: {color: 'green'}}); setTimeout(() => this.setState({copyText: 'Copy Email', style: {} }), 2000); }}>
+                                    <img className="contactIcon-m" src={Email} />
+                                    <span class = "popupText-m">{this.state.copyText}</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </>
