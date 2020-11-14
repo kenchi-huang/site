@@ -276,7 +276,7 @@
 
 .timelineText{
   font-weight: normal;
-  font-size: 2.7ch;
+  font-size: 2.4ch;
 }
 
 .projectPageTitle{
@@ -338,7 +338,7 @@
 .projectTitle{
   color:#dcf3ff;
   font-weight: bold;
-  font-size: 4ch;
+  font-size: 3.5ch;
   font-family: 'Assistant';
   max-height: 1vh;
   padding-top: no;
@@ -347,7 +347,7 @@
 .projectDescription{
   color:#dcf3ff;
   font-weight: normal;
-  font-size: 3ch;
+  font-size: 2.5ch;
   font-family: 'Assistant';
   max-height: 1vh;
   padding-top: no;
@@ -428,13 +428,13 @@
 }
 
 .Ken{
-  max-width: 40vh; 
+  max-width: 35vh; 
   padding-left: 4vh;
 }
 
 .aboutMeText{
-  padding-left: 2vh;
-  padding-right: 2vh;
+  padding-left: 1vh;
+  padding-right: 1vh;
 }
 
 .skillButton{
@@ -446,5 +446,5 @@
 }
 
 .skillLogo{
-  max-width: 10vh;
+  max-width: 7vh;
 }

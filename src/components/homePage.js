@@ -4,14 +4,29 @@ import '../App.css';
 export default class homePage extends React.Component {
     render() {
         return (
-            <div className = "homePage">
-                <p className="name">
-                    Ken-Chi Huang
-                </p>
-                <p className="belowName">
-                    Second year Computer Science student at King's College London
-                </p>
-            </div>
+            <>{
+                !this.props.mobile ? <>
+                    <div className = "homePage">
+                        <p className="name">
+                            Ken-Chi Huang
+                        </p>
+                        <p className="belowName">
+                            Second year Computer Science student at King's College London
+                        </p>
+                    </div>
+                </>:
+                <>
+                    <div className = "homePage-m">
+                        <p className="name-m">
+                            Ken-Chi Huang
+                        </p>
+                        <p className="belowName-m">
+                            Second year Computer Science student at King's College London
+                        </p>
+                    </div>
+                </>
+            }
+            </>
         )
     }
 }
