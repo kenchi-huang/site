@@ -13,6 +13,9 @@ export default class homePage extends React.Component {
                         <p className="belowName">
                             Second year Computer Science student at King's College London
                         </p>
+                        <p className = "copyrightText">
+                            Copyright © Ken-Chi Huang 2020
+                        </p>
                     </div>
                 </>:
                 <>
@@ -22,6 +25,9 @@ export default class homePage extends React.Component {
                         </p>
                         <p className="belowName-m">
                             Second year Computer Science student at King's College London
+                        </p>
+                        <p className = "copyrightText-m">
+                            Copyright © Ken-Chi Huang 2020
                         </p>
                     </div>
                 </>

@@ -3,7 +3,7 @@
   display: flex;
   flex: 1;
   justify-content: space-between;
-  padding: 3.5% 3% 0% 3%;
+  padding: 4% 3% 0% 3%;
   height: 0vh
 }
 
@@ -13,7 +13,7 @@
   color: #FFF;
   font-family: 'Assistant';
   font-weight: normal;
-  font-size: 2.5ch;
+  font-size: 2vh;
   outline: none;
 }
 
@@ -21,7 +21,7 @@
   border-width: 0;
   background-color: transparent;
   color: #dcf3ff;
-  font-size: 2.5ch;
+  font-size: 2vh;
   font-family: 'Assistant';
   outline: none;
 }
@@ -31,7 +31,7 @@
   background-color: transparent;
   color: #dcf3ff;
   font-family: 'Assistant';
-  font-size: 2.5ch;
+  font-size: 2vh;
   outline: none;
 }
 
@@ -45,9 +45,9 @@
           color:#dcf3ff;
           text-align: center;
           font-weight: light;
-          font-size: 10ch;
+          font-size: 8vh;
           font-family: 'Assistant';
-          max-height: 1ch;
+          max-height: 2vh;
           padding-top: 8vh;
 }
 
@@ -56,20 +56,15 @@
           animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.5s both;
           color:#dcf3ff;
           text-align: center;
-          font-size: 3ch;
+          font-size: 2.5vh;
           font-weight: light;
 }
 
-/* text animation */
-@keyframes animated-text{
-  from{width: 0;}
-  to{width: 472px;}
-}
-
-/* cursor animations */
-@keyframes animated-cursor{
-  from{border-right-color: rgba(0,255,0,.75);}
-  to{border-right-color: transparent;}
+.copyrightText{
+  display: flex;
+  flex: 1;
+  bottom: -43vh;
+  position: relative;
 }
 
 .contactBar{
@@ -86,7 +81,7 @@
 }
 
 .contactIcon{
-  width: 7ch;
+  width: 5vh;
 }
 
 @-webkit-keyframes tracking-in-expand {
@@ -193,9 +188,9 @@
   color:#dcf3ff;
   text-align: left;
   font-weight: light;
-  font-size: 8ch;
+  font-size: 6vh;
   font-family: 'Assistant';
-  max-height: 1ch;
+  max-height: 2vh;
   padding: 1% 0% 0% 1%
 }
 
@@ -220,7 +215,7 @@
   flex: 1;
   align-items: flex-start;
   justify-content: space-between;
-  max-height: 2ch;
+  max-height: 2vh;
   padding-top: 1vh;
 }
 
@@ -260,7 +255,7 @@
 .timelineYear{
   color:#dcf3ff;
   font-weight: bold;
-  font-size: 3ch;
+  font-size: 2.5vh;
   font-family: 'Assistant';
   max-height: 1vh;
 }
@@ -268,24 +263,24 @@
 .timelineInfoTitle{
   color:#dcf3ff;
   font-weight: bold;
-  font-size: 3ch;
+  font-size: 2.5vh;
   font-family: 'Assistant';
   max-height: 1vh;
-  padding-bottom: 4.5vh;
+  padding-bottom: 3vh;
 }
 
 .timelineText{
   font-weight: normal;
-  font-size: 2.4ch;
+  font-size: 1.8vh;
 }
 
 .projectPageTitle{
   color:#dcf3ff;
   text-align: left;
   font-weight: normal;
-  font-size: 8ch;
+  font-size: 6vh;
   font-family: 'Assistant';
-  max-height: 1ch;
+  max-height: 2.5vh;
   padding: 1% 0% 0% 1%
 }
 
@@ -309,7 +304,7 @@
   font-family: "Assistant";
   font-weight: bold;
   visibility: hidden;
-  width: 290px;
+  width: 40vw;
   background-color: transparent;
   color: #dcf3ff;
   text-align: center;
@@ -330,7 +325,7 @@
 .projectYear{
   color:#dcf3ff;
   font-weight: light;
-  font-size: 3ch;
+  font-size: 3vh;
   font-family: 'Assistant';
   max-height: 0vh;
 }
@@ -338,7 +333,7 @@
 .projectTitle{
   color:#dcf3ff;
   font-weight: bold;
-  font-size: 3.5ch;
+  font-size: 2.5vh;
   font-family: 'Assistant';
   max-height: 1vh;
   padding-top: no;
@@ -347,7 +342,7 @@
 .projectDescription{
   color:#dcf3ff;
   font-weight: normal;
-  font-size: 2.5ch;
+  font-size: 2vh;
   font-family: 'Assistant';
   max-height: 1vh;
   padding-top: no;
@@ -421,20 +416,20 @@
   color:#dcf3ff;
   text-align: left;
   font-weight: light;
-  font-size: 8ch;
+  font-size: 6vh;
   font-family: 'Assistant';
-  max-height: 1ch;
+  max-height: 1vh;
   padding: 1% 0% 0% 1%
 }
 
 .Ken{
-  max-width: 35vh; 
-  padding-left: 4vh;
+  max-width: 30vh; 
+  padding-left: 1vh;
 }
 
 .aboutMeText{
-  padding-left: 1vh;
-  padding-right: 1vh;
+  padding-left: 1.5vh;
+  padding-right: 1.5vh;
 }
 
 .skillButton{
@@ -469,7 +464,7 @@
   color: #FFF;
   font-family: 'Assistant';
   font-weight: normal;
-  font-size: 1.9ch;
+  font-size: 2vh;
   outline: none;
 }
 
@@ -477,7 +472,7 @@
   border-width: 0;
   background-color: transparent;
   color: #dcf3ff;
-  font-size: 1.9ch;
+  font-size: 2vh;
   font-family: 'Assistant';
   outline: none;
 }
@@ -487,7 +482,7 @@
   background-color: transparent;
   color: #dcf3ff;
   font-family: 'Assistant';
-  font-size: 1.9ch;
+  font-size: 2vh;
   outline: none;
 }
 
@@ -505,9 +500,9 @@
           color:#dcf3ff;
           text-align: center;
           font-weight: light;
-          font-size: 5ch;
+          font-size: 5vh;
           font-family: 'Assistant';
-          max-height: 1ch;
+          max-height: 1vh;
           padding-top: 8vh;
 }
 
@@ -516,8 +511,16 @@
           animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.5s both;
           color:#dcf3ff;
           text-align: center;
-          font-size: 1.9ch;
+          font-size: 2vh;
           font-weight: light;
+}
+
+.copyrightText-m{
+  display: flex;
+  flex: 1;
+  bottom: -47vh;
+  position: relative;
+  font-size: 1.9vh;
 }
 
 .contactBar-m{
@@ -532,7 +535,7 @@
 }
 
 .contactIcon-m{
-  width: 4ch;
+  width: 4vh;
 }
 
 .slide-in-bck-center-m{
@@ -594,10 +597,11 @@
   color:#dcf3ff;
   text-align: left;
   font-weight: light;
-  font-size: 3.8ch;
+  font-size: 3.8vh;
   font-family: 'Assistant';
-  max-height: 1ch;
-  padding: 1% 0% 2% 0.9%
+  max-height: 1vh;
+  padding: 1% 0% 2% 0.9%;
+  padding-bottom: 1.5vh;
 }
 
 .gradientLine-m{
@@ -625,6 +629,7 @@
   flex-direction: column;
   padding-left: 1.5vh;
   padding-bottom: 1vh;
+  padding-top: 1vh;
 }
 
 .timelineObject-m{
@@ -636,7 +641,7 @@
 .timelineYear-m{
   color:#dcf3ff;
   font-weight: bold;
-  font-size: 2ch;
+  font-size: 2vh;
   font-family: 'Assistant';
   max-height: 0.5vh;
   padding: none;
@@ -645,15 +650,14 @@
 .timelineInfoTitle-m{
   color:#dcf3ff;
   font-weight: bold;
-  font-size: 2ch;
+  font-size: 2vh;
   font-family: 'Assistant';
   max-height: 0.5vh;
-  padding: none;
 }
 
 .timelineText-m{
   font-weight: normal;
-  font-size: 2ch;
+  font-size: 1.8vh;
   max-height:1vh;
   padding-bottom: 1vh;
 }
@@ -666,10 +670,11 @@
   color:#dcf3ff;
   text-align: left;
   font-weight: normal;
-  font-size: 4ch;
+  font-size: 4vh;
   font-family: 'Assistant';
-  max-height: 1ch;
-  padding: 1% 0% 0% 1%
+  max-height: 1vh;
+  padding: 1% 0% 0% 1%;
+  padding-left: 2vh;
 }
 
 .projectIcon-m{
@@ -695,7 +700,7 @@
   font-family: "Assistant";
   font-weight: bold;
   visibility: visible;
-  width: 160px;
+  width: 150px;
   background-color: transparent;
   color: #dcf3ff;
   text-align: center;
@@ -718,7 +723,7 @@
 .projectYear-m{
   color:#dcf3ff;
   font-weight: light;
-  font-size: 2ch;
+  font-size: 2vh;
   font-family: 'Assistant';
   max-height: 0vh;
 }
@@ -726,7 +731,7 @@
 .projectTitle-m{
   color:#dcf3ff;
   font-weight: bold;
-  font-size: 2.2ch;
+  font-size: 2vh;
   font-family: 'Assistant';
   max-height: 0vh;
 }
@@ -734,7 +739,7 @@
 .projectDescription-m{
   color:#dcf3ff;
   font-weight: normal;
-  font-size: 1.5ch;
+  font-size: 1.75vh;
   font-family: 'Assistant';
   max-height: 1vh;
   padding-top: no;
@@ -769,9 +774,9 @@
   color:#dcf3ff;
   text-align: left;
   font-weight: light;
-  font-size: 4ch;
+  font-size: 4vh;
   font-family: 'Assistant';
-  max-height: 1ch;
+  max-height: 1vh;
   padding: 1% 0% 0% 1%
 }
 
@@ -783,7 +788,8 @@
 .aboutMeText-m{
   padding-left: 1vh;
   padding-right: 1vh;
-  font-size: 1.6ch;
+  font-size: 1.62vh;
+  font-weight: normal;
 }
 
 .skillButton-m{
