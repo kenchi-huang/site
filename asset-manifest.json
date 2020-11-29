@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.8e639b03.chunk.css",
-    "main.js": "/static/js/main.c7762e97.chunk.js",
-    "main.js.map": "/static/js/main.c7762e97.chunk.js.map",
+    "main.css": "/static/css/main.5ff41aec.chunk.css",
+    "main.js": "/static/js/main.bcf0171c.chunk.js",
+    "main.js.map": "/static/js/main.bcf0171c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f80cd844.js",
     "runtime-main.js.map": "/static/js/runtime-main.f80cd844.js.map",
     "static/js/2.efed45a5.chunk.js": "/static/js/2.efed45a5.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.6d326908.chunk.js": "/static/js/3.6d326908.chunk.js",
     "static/js/3.6d326908.chunk.js.map": "/static/js/3.6d326908.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.8e639b03.chunk.css.map": "/static/css/main.8e639b03.chunk.css.map",
+    "static/css/main.5ff41aec.chunk.css.map": "/static/css/main.5ff41aec.chunk.css.map",
     "static/js/2.efed45a5.chunk.js.LICENSE.txt": "/static/js/2.efed45a5.chunk.js.LICENSE.txt",
     "static/media/AirbnbProj.0ac8c9ee.png": "/static/media/AirbnbProj.0ac8c9ee.png",
     "static/media/index.css": "/static/media/Assistant-Regular.2cf24cb4.woff2",
     "static/media/CSharp.ce53e48e.png": "/static/media/CSharp.ce53e48e.png",
     "static/media/GoLang.02bc982b.png": "/static/media/GoLang.02bc982b.png",
-    "static/media/Ken-Chi_Huang_CV.03017935.pdf": "/static/media/Ken-Chi_Huang_CV.03017935.pdf",
+    "static/media/Ken-Chi_Huang_CV.115a6d80.pdf": "/static/media/Ken-Chi_Huang_CV.115a6d80.pdf",
     "static/media/Kenchi.4043d1f6.png": "/static/media/Kenchi.4043d1f6.png",
     "static/media/Unifin.b4e83c3d.png": "/static/media/Unifin.b4e83c3d.png",
     "static/media/cpp.0a81196c.png": "/static/media/cpp.0a81196c.png",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.f80cd844.js",
     "static/js/2.efed45a5.chunk.js",
-    "static/css/main.8e639b03.chunk.css",
-    "static/js/main.c7762e97.chunk.js"
+    "static/css/main.5ff41aec.chunk.css",
+    "static/js/main.bcf0171c.chunk.js"
   ]
 }
