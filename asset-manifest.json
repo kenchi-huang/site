@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.5ff41aec.chunk.css",
-    "main.js": "/static/js/main.008b5d32.chunk.js",
-    "main.js.map": "/static/js/main.008b5d32.chunk.js.map",
+    "main.js": "/static/js/main.6373bca6.chunk.js",
+    "main.js.map": "/static/js/main.6373bca6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f80cd844.js",
     "runtime-main.js.map": "/static/js/runtime-main.f80cd844.js.map",
     "static/js/2.efed45a5.chunk.js": "/static/js/2.efed45a5.chunk.js",
@@ -16,7 +16,7 @@
     "static/media/index.css": "/static/media/Assistant-Regular.2cf24cb4.woff2",
     "static/media/CSharp.ce53e48e.png": "/static/media/CSharp.ce53e48e.png",
     "static/media/GoLang.02bc982b.png": "/static/media/GoLang.02bc982b.png",
-    "static/media/Ken-Chi_Huang_CV.408a8ccc.pdf": "/static/media/Ken-Chi_Huang_CV.408a8ccc.pdf",
+    "static/media/Ken-Chi_Huang_CV.b54674df.pdf": "/static/media/Ken-Chi_Huang_CV.b54674df.pdf",
     "static/media/Kenchi.4043d1f6.png": "/static/media/Kenchi.4043d1f6.png",
     "static/media/Unifin.b4e83c3d.png": "/static/media/Unifin.b4e83c3d.png",
     "static/media/cpp.0a81196c.png": "/static/media/cpp.0a81196c.png",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.f80cd844.js",
     "static/js/2.efed45a5.chunk.js",
     "static/css/main.5ff41aec.chunk.css",
-    "static/js/main.008b5d32.chunk.js"
+    "static/js/main.6373bca6.chunk.js"
   ]
 }
