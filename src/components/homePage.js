@@ -7,27 +7,27 @@ export default class homePage extends React.Component {
             <>{
                 !this.props.mobile ? <>
                     <div className = "homePage">
+                        <p className = "welcomeText">
+                            Hey! My name is
+                        </p>
                         <p className="name">
-                            Ken-Chi Huang
+                            Ken-Chi Huang.
                         </p>
                         <p className="belowName">
-                            Second year Computer Science student at King's College London
-                        </p>
-                        <p className = "copyrightText">
-                            Copyright © Ken-Chi Huang 2020
+                            I'm a second year Computer Science student at King's College London.
                         </p>
                     </div>
                 </>:
                 <>
                     <div className = "homePage-m">
+                        <p className = "welcomeText-m">
+                            Hey! My name is
+                        </p>
                         <p className="name-m">
-                            Ken-Chi Huang
+                            Ken-Chi Huang.
                         </p>
                         <p className="belowName-m">
-                            Second year Computer Science student at King's College London
-                        </p>
-                        <p className = "copyrightText-m">
-                            Copyright © Ken-Chi Huang 2020
+                            I'm a second year Computer Science student at King's College London.
                         </p>
                     </div>
                 </>

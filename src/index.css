@@ -1,10 +1,10 @@
 html,
 body {
   margin: 0;
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Inter';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background-color: #0c1420;
   color: #dcf3ff;
   font-weight: normal;
 }
@@ -18,10 +18,11 @@ body {
 code {
   /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace; */
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Inter';
 }
 
 @font-face{
-  font-family: 'Assistant';
-  src: url(fonts/Assistant-ExtraLight.woff2) format('woff2'), url(fonts/Assistant-Light.woff2) format('woff2'), url(fonts/Assistant-Medium.woff2) format('woff2'), url(fonts/Assistant-Regular.woff2) format('woff2');
+  font-family: 'Inter';
+  src: url(fonts/Inter-ExtraLight.woff2) format('woff2'), url(fonts/Inter-Light.woff2) format('woff2'), url(fonts/Inter-Medium.woff2) format('woff2'), url(fonts/Inter-Regular.woff2) format('woff2'), url(fonts/Inter-Thin.woff2) format('woff2');
+  /* src: url(fonts/Assistant-ExtraLight.woff2) format('woff2'), url(fonts/Assistant-Light.woff2) format('woff2'), url(fonts/Assistant-Medium.woff2) format('woff2'), url(fonts/Assistant-Regular.woff2) format('woff2'); */
 }
