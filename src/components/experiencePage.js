@@ -5,6 +5,7 @@ import KCL from '../images/Kings.png';
 import BA from '../images/BA.png';
 import BHF from '../images/BHF.png';
 import HS6 from '../images/hackSheff.png';
+import Mercedes from '../images/Mercedes.png';
 
 export default class experiencePage extends React.Component{
     render(){
@@ -45,6 +46,9 @@ export default class experiencePage extends React.Component{
                                 <li>Practical Experiences of Programming</li>
                                 <li>Programming Language Design Paradigms</li>
                                 <li>Robotics and Software Engineering Group Project</li>
+                                <li>Cryptography</li>
+                                <li>Compilers and Formal Languages</li>
+                                <li>Human-Computer Interaction</li>
                             </ul>
                             <div class = "skillBar">
                                 <span class = "programmingSkill">Java</span>
@@ -57,6 +61,9 @@ export default class experiencePage extends React.Component{
                                 <span class = "programmingSkill">Javascript</span>
                                 <span class = "programmingSkill">CSS</span>
                                 <span class = "programmingSkill">HTML</span>
+                                <span class = "skill">Teamwork</span>
+                                <span class = "skill">Time Management</span>
+                                <span class = "skill">Problem-Solving</span>
                             </div>
                             <p></p>
                             <p></p>
@@ -90,6 +97,7 @@ export default class experiencePage extends React.Component{
                                 <span class = "skill">Communication</span>
                                 <span class = "skill">Time Management</span>
                                 <span class = "skill">Problem-Solving</span>
+                                <span class = "skill">Teamwork</span>
                             </div>
                             <p></p>
                         </div>
@@ -121,10 +129,81 @@ export default class experiencePage extends React.Component{
                                 <span class = "skill">Leadership</span>
                                 <span class = "skill">Collaboration</span>
                                 <span class = "skill">Time Management</span>
+                                <span class = "skill">Teamwork</span>
                             </div>
                             <p></p>
                         </div>
                     </div>
+
+                    <div className = "experienceBox">
+                        <div>
+                            <button class = "experienceIconButton" onClick={(e) => { e.preventDefault(); window.open('https://www.kcl.ac.uk/', '_blank') }}>
+                                <img class = "experienceIcon" src = {KCL}/>
+                            </button>
+                            <div className = "experienceInfo">
+                                <b className = "experienceTitle">King's College London</b>
+                                <b className = "experienceDate">June 2021 - August 2021</b>
+                            </div>
+                            <div className = "experienceInfo">
+                                <p className = "experiencePosition">Undergraduate Research Fellow</p>
+                                <p className = "experienceLocation">London, United Kingdom</p>
+                            </div>
+
+                            <p className = "sectionDescription">
+                                Joined a summer research fellowship programme at King's College London.
+                                The topic of the fellowship was the visualisation of complex networks.
+                                Worked with the other fellows on the programme to deliver analysis of the extremely large dataset regarding the ecosystem in Otago Harbour, New Zealand.
+                                Used clustering to analyse and graph the data.
+                            </p>
+                            <div class = "skillBar">
+                                <span class = "programmingSkill">Python</span>
+                                <span class = "programmingSkill">AI</span>
+                                <span class = "programmingSkill">Data Clustering</span>
+                                <span class = "skill">Communication</span>
+                                <span class = "skill">Problem-Solving</span>
+                                <span class = "skill">Collaboration</span>
+                                <span class = "skill">Time Management</span>
+                                <span class = "skill">Research</span>
+                                <span class = "skill">Teamwork</span>
+                            </div>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div className = "experienceBox">
+                        <div>
+                            <button class = "experienceIconButton" onClick={(e) => { e.preventDefault(); window.open('https://www.mercedes-amg-hpp.com/', '_blank') }}>
+                                <img class = "experienceIcon" src = {Mercedes}/>
+                            </button>
+                            <div className = "experienceInfo">
+                                <b className = "experienceTitle">Mercedes-AMG HPP</b>
+                                <b className = "experienceDate">September 2021 - September 2022</b>
+                            </div>
+                            <div className = "experienceInfo">
+                                <p className = "experiencePosition">Software and Controls Engineer (Placement)</p>
+                                <p className = "experienceLocation">Brixworth, United Kingdom</p>
+                            </div>
+
+                            <p className = "sectionDescription">
+                                Joined Mercedes-AMG HPP towards the start of September.
+                                Worked on the battery management system for Vision EQXX, an EV that can go 1000+km on a single charge.
+                                Also worked on the ECU software for the Formula One power units, adding functionality, fixing faults, and maintaining parts of the code.
+                            </p>
+                            <div class = "skillBar">
+                                <span class = "programmingSkill">Simulink</span>
+                                <span class = "programmingSkill">MATLAB</span>
+                                <span class = "programmingSkill">Model-based design</span>
+                                <span class = "skill">Communication</span>
+                                <span class = "skill">Problem-Solving</span>
+                                <span class = "skill">Collaboration</span>
+                                <span class = "skill">Time Management</span>
+                                <span class = "skill">Teamwork</span>
+                                <span class = "skill">Inter-disciplinary Work</span>
+                            </div>
+                            <p></p>
+                        </div>
+                    </div>
+
                     <p className = "sectionTag">Achievements</p>
                     <div className = "thinLine"></div>
                     <div className = "experienceBox">
@@ -154,6 +233,7 @@ export default class experiencePage extends React.Component{
                                 <span class = "skill">Communication</span>
                                 <span class = "skill">Time Management</span>
                                 <span class = "skill">Problem-Solving</span>
+                                <span class = "skill">Teamwork</span>
                             </div>
                             {/* <div class = "finalSkillBar">
 
@@ -222,6 +302,9 @@ export default class experiencePage extends React.Component{
                                 <span class = "programmingSkill-m">Javascript</span>
                                 <span class = "programmingSkill-m">CSS</span>
                                 <span class = "programmingSkill-m">HTML</span>
+                                <span class = "skill-m">Teamwork</span>
+                                <span class = "skill-m">Time Management</span>
+                                <span class = "skill-m">Problem-Solving</span>
                             </div>
                             <p></p>
                             <p></p>
@@ -255,6 +338,7 @@ export default class experiencePage extends React.Component{
                                 <span class = "skill-m">Communication</span>
                                 <span class = "skill-m">Time Management</span>
                                 <span class = "skill-m">Problem-Solving</span>
+                                <span class = "skill-m">Teamwork</span>
                             </div>
                             <p></p>
                         </div>
@@ -286,10 +370,81 @@ export default class experiencePage extends React.Component{
                                 <span class = "skill-m">Leadership</span>
                                 <span class = "skill-m">Collaboration</span>
                                 <span class = "skill-m">Time Management</span>
+                                <span class = "skill-m">Teamwork</span>
                             </div>
                             <p></p>
                         </div>
                     </div>
+
+                    <div className = "experienceBox-m">
+                        <div>
+                            <button class = "experienceIconButton-m" onClick={(e) => { e.preventDefault(); window.open('https://www.kcl.ac.uk/', '_blank') }}>
+                                <img class = "experienceIcon-m" src = {KCL}/>
+                            </button>
+                            <div className = "experienceInfo-m">
+                                <b className = "experienceTitle-m">King's College London</b>
+                                <b className = "experienceDate-m">June 2021 - August 2021</b>
+                            </div>
+                            <div className = "experienceInfo-m">
+                                <p className = "experiencePosition-m">Undergraduate Research Fellow</p>
+                                <p className = "experienceLocation-m">London, United Kingdom</p>
+                            </div>
+
+                            <p className = "sectionDescription-m">
+                                Joined a summer research fellowship programme at King's College London.
+                                The topic of the fellowship was the visualisation of complex networks.
+                                Worked with the other fellows on the programme to deliver analysis of the extremely large dataset regarding the ecosystem in Otago Harbour, New Zealand.
+                                Used clustering to analyse and graph the data.
+                            </p>
+                            <div class = "skillBar-m">
+                                <span class = "programmingSkill-m">Python</span>
+                                <span class = "programmingSkill-m">AI</span>
+                                <span class = "programmingSkill-m">Data Clustering</span>
+                                <span class = "skill-m">Communication</span>
+                                <span class = "skill-m">Problem-Solving</span>
+                                <span class = "skill-m">Collaboration</span>
+                                <span class = "skill-m">Time Management</span>
+                                <span class = "skill-m">Research</span>
+                                <span class = "skill-m">Teamwork</span>
+                            </div>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div className = "experienceBox-m">
+                        <div>
+                            <button class = "experienceIconButton-m" onClick={(e) => { e.preventDefault(); window.open('https://www.mercedes-amg-hpp.com/', '_blank') }}>
+                                <img class = "experienceIcon-m" src = {Mercedes}/>
+                            </button>
+                            <div className = "experienceInfo-m">
+                                <b className = "experienceTitle-m">Mercedes-AMG HPP</b>
+                                <b className = "experienceDate-m">September 2021 - September 2022</b>
+                            </div>
+                            <div className = "experienceInfo-m">
+                                <p className = "experiencePosition-m">Software and Controls Engineer (Placement)</p>
+                                <p className = "experienceLocation-m">Brixworth, United Kingdom</p>
+                            </div>
+
+                            <p className = "sectionDescription-m">
+                                Joined Mercedes-AMG HPP towards the start of September.
+                                Worked on the battery management system for Vision EQXX, an EV that can go 1000+km on a single charge.
+                                Also worked on the ECU software for the Formula One power units, adding functionality, fixing faults, and maintaining parts of the code.
+                            </p>
+                            <div class = "skillBar-m">
+                                <span class = "programmingSkill-m">Simulink</span>
+                                <span class = "programmingSkill-m">MATLAB</span>
+                                <span class = "programmingSkill-m">Model-based design</span>
+                                <span class = "skill-m">Communication</span>
+                                <span class = "skill-m">Problem-Solving</span>
+                                <span class = "skill-m">Collaboration</span>
+                                <span class = "skill-m">Time Management</span>
+                                <span class = "skill-m">Teamwork</span>
+                                <span class = "skill-m">Inter-disciplinary Work</span>
+                            </div>
+                            <p></p>
+                        </div>
+                    </div>
+
                     <p className = "sectionTag-m">Achievements</p>
                     <div className = "thinLine-m"></div>
                     <div className = "experienceBox-m">

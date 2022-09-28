@@ -8,21 +8,12 @@ body {
   color: #dcf3ff;
   font-weight: normal;
 }
-  /* .heading {
-    font-weight: 200;
-  }
-  .subheading {
-    font-weight: 500;
-  } */
 
 code {
-  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace; */
     font-family: 'Inter';
 }
 
 @font-face{
   font-family: 'Inter';
   src: url(fonts/Inter-ExtraLight.woff2) format('woff2'), url(fonts/Inter-Light.woff2) format('woff2'), url(fonts/Inter-Medium.woff2) format('woff2'), url(fonts/Inter-Regular.woff2) format('woff2'), url(fonts/Inter-Thin.woff2) format('woff2');
-  /* src: url(fonts/Assistant-ExtraLight.woff2) format('woff2'), url(fonts/Assistant-Light.woff2) format('woff2'), url(fonts/Assistant-Medium.woff2) format('woff2'), url(fonts/Assistant-Regular.woff2) format('woff2'); */
 }

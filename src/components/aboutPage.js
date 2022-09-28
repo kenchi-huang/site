@@ -54,6 +54,8 @@ export default class aboutPage extends React.Component{
                                     <li>HTML and CSS</li>
                                     <li>Adobe Creative Suite</li>
                                     <li>Xcode</li>
+                                    <li>MATLAB</li>
+                                    <li>Simulink</li>
                                 </ul>
                             </div>
                             <div className = "amPhoto">
@@ -119,6 +121,8 @@ export default class aboutPage extends React.Component{
                                     <li>HTML and CSS</li>
                                     <li>Adobe Creative Suite</li>
                                     <li>Xcode</li>
+                                    <li>MATLAB</li>
+                                    <li>Simulink</li>
                                 </ul>
                             </div>
 
