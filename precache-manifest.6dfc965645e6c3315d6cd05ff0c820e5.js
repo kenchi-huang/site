@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c784a72e59d9cfc631e4",
+    "revision": "3436365b5ef1de01f389",
     "url": "/static/css/main.9b52df8c.chunk.css"
   },
   {
-    "revision": "c784a72e59d9cfc631e4",
-    "url": "/static/js/main.c784a72e.chunk.js"
+    "revision": "3436365b5ef1de01f389",
+    "url": "/static/js/main.3436365b.chunk.js"
   },
   {
     "revision": "f3454c95603f3aec0690",
@@ -72,31 +72,31 @@ self.__precacheManifest = [
     "url": "/static/media/in.fd2a15bb.png"
   },
   {
-    "revision": "ef35dedb6eaf946304baf2fb54d3fc9e",
-    "url": "/static/media/Ken-Chi_Huang_CV.ef35dedb.pdf"
+    "revision": "3dac9e4371b142f07a2c016203a27128",
+    "url": "/static/media/Ken-Chi_Huang_CV.3dac9e43.pdf"
   },
   {
     "revision": "f96860ddf7b821448c17c2e10c983a09",
     "url": "/static/media/Inter-ExtraLight.f96860dd.woff2"
   },
   {
-    "revision": "6f8c3d57c2ccfad9a76b91ee16f43c44",
-    "url": "/static/media/Inter-Regular.6f8c3d57.woff2"
-  },
-  {
     "revision": "36414b52a2b40c67f934e5e6cccac6d9",
     "url": "/static/media/Inter-Light.36414b52.woff2"
-  },
-  {
-    "revision": "fe258e4595ade6d75c99e053dbc89f88",
-    "url": "/static/media/Inter-Medium.fe258e45.woff2"
   },
   {
     "revision": "7ebe66e2ab57f4cf5278bdcc8ffc5baa",
     "url": "/static/media/Inter-Thin.7ebe66e2.woff2"
   },
   {
-    "revision": "324fd5b06b372f29d613048986a7749a",
+    "revision": "6f8c3d57c2ccfad9a76b91ee16f43c44",
+    "url": "/static/media/Inter-Regular.6f8c3d57.woff2"
+  },
+  {
+    "revision": "fe258e4595ade6d75c99e053dbc89f88",
+    "url": "/static/media/Inter-Medium.fe258e45.woff2"
+  },
+  {
+    "revision": "e7e1c69c2186456dc636d4e297e015b5",
     "url": "/index.html"
   }
 ];

@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.9b52df8c.chunk.css",
-  "main.js": "/static/js/main.c784a72e.chunk.js",
-  "main.js.map": "/static/js/main.c784a72e.chunk.js.map",
+  "main.js": "/static/js/main.3436365b.chunk.js",
+  "main.js.map": "/static/js/main.3436365b.chunk.js.map",
   "static/js/1.f3454c95.chunk.js": "/static/js/1.f3454c95.chunk.js",
   "static/js/1.f3454c95.chunk.js.map": "/static/js/1.f3454c95.chunk.js.map",
   "static/js/2.52d9d147.chunk.js": "/static/js/2.52d9d147.chunk.js",
@@ -21,10 +21,10 @@
   "static/media/hackSheff.png": "/static/media/hackSheff.f78cfbe4.png",
   "static/media/Mercedes.png": "/static/media/Mercedes.8da1f133.png",
   "static/media/in.png": "/static/media/in.fd2a15bb.png",
-  "static/media/Ken-Chi_Huang_CV.pdf": "/static/media/Ken-Chi_Huang_CV.ef35dedb.pdf",
-  "static/media/index.css": "/static/media/Inter-Thin.7ebe66e2.woff2",
+  "static/media/Ken-Chi_Huang_CV.pdf": "/static/media/Ken-Chi_Huang_CV.3dac9e43.pdf",
+  "static/media/index.css": "/static/media/Inter-Medium.fe258e45.woff2",
   "static/css/main.9b52df8c.chunk.css.map": "/static/css/main.9b52df8c.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.b4e637707ab38d987bcbf3137bbe7533.js": "/precache-manifest.b4e637707ab38d987bcbf3137bbe7533.js",
+  "precache-manifest.6dfc965645e6c3315d6cd05ff0c820e5.js": "/precache-manifest.6dfc965645e6c3315d6cd05ff0c820e5.js",
   "service-worker.js": "/service-worker.js"
 }
