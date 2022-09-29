@@ -80,16 +80,16 @@ self.__precacheManifest = [
     "url": "/static/media/Inter-ExtraLight.f96860dd.woff2"
   },
   {
+    "revision": "6f8c3d57c2ccfad9a76b91ee16f43c44",
+    "url": "/static/media/Inter-Regular.6f8c3d57.woff2"
+  },
+  {
     "revision": "36414b52a2b40c67f934e5e6cccac6d9",
     "url": "/static/media/Inter-Light.36414b52.woff2"
   },
   {
     "revision": "fe258e4595ade6d75c99e053dbc89f88",
     "url": "/static/media/Inter-Medium.fe258e45.woff2"
-  },
-  {
-    "revision": "6f8c3d57c2ccfad9a76b91ee16f43c44",
-    "url": "/static/media/Inter-Regular.6f8c3d57.woff2"
   },
   {
     "revision": "7ebe66e2ab57f4cf5278bdcc8ffc5baa",
