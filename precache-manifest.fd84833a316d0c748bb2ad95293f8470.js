@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3436365b5ef1de01f389",
+    "revision": "28a3f23b199ed0c60d14",
     "url": "/static/css/main.9b52df8c.chunk.css"
   },
   {
-    "revision": "3436365b5ef1de01f389",
-    "url": "/static/js/main.3436365b.chunk.js"
+    "revision": "28a3f23b199ed0c60d14",
+    "url": "/static/js/main.28a3f23b.chunk.js"
   },
   {
     "revision": "f3454c95603f3aec0690",
@@ -76,27 +76,27 @@ self.__precacheManifest = [
     "url": "/static/media/Ken-Chi_Huang_CV.3dac9e43.pdf"
   },
   {
-    "revision": "f96860ddf7b821448c17c2e10c983a09",
-    "url": "/static/media/Inter-ExtraLight.f96860dd.woff2"
-  },
-  {
     "revision": "36414b52a2b40c67f934e5e6cccac6d9",
     "url": "/static/media/Inter-Light.36414b52.woff2"
+  },
+  {
+    "revision": "f96860ddf7b821448c17c2e10c983a09",
+    "url": "/static/media/Inter-ExtraLight.f96860dd.woff2"
   },
   {
     "revision": "7ebe66e2ab57f4cf5278bdcc8ffc5baa",
     "url": "/static/media/Inter-Thin.7ebe66e2.woff2"
   },
   {
-    "revision": "6f8c3d57c2ccfad9a76b91ee16f43c44",
-    "url": "/static/media/Inter-Regular.6f8c3d57.woff2"
-  },
-  {
     "revision": "fe258e4595ade6d75c99e053dbc89f88",
     "url": "/static/media/Inter-Medium.fe258e45.woff2"
   },
   {
-    "revision": "e7e1c69c2186456dc636d4e297e015b5",
+    "revision": "6f8c3d57c2ccfad9a76b91ee16f43c44",
+    "url": "/static/media/Inter-Regular.6f8c3d57.woff2"
+  },
+  {
+    "revision": "5aeef761ccc7c4f656e5c2b78c0b226f",
     "url": "/index.html"
   }
 ];
